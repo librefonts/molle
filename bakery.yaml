@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Molle-Regular.ttf.ttx, src/Molle-Regular.otf.ttx, src/Molle-Regular-TTF.sfd,
+  src/Molle-Regular-OTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
